@@ -2,7 +2,7 @@ Checkin-with-Auto.js
 
 
 
-利用autojs进行论坛和一些app的每日签到
+利用autojs进行论坛和一些app的每日签到(不带自动的都是ck操作)
 <ul class="contains-task-list">
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 人人影视自动签到</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 晋江</li>
