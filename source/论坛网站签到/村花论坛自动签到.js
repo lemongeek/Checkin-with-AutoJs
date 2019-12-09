@@ -1,6 +1,6 @@
 var username = "账号";
 var password = "密码";
-var ckm =登录();
+var cookie =登录();
 签到();
       
       
@@ -23,13 +23,13 @@ res = http.post(url,{
     });
 setck =res.headers["set-cookie"];
 var patt =/[a-zA-Z\d=_@%.]+[^a-z\dA-Z]/g;
-var ckm ="";var i=0;
+var cookie ="";var i=0;
 while(i<13)
 {
 ck =setck[i].match(patt);
-ckm=ck[0]+ckm;i++;
+cookie=ck[0]+cookie;i++;
    } 
-return(ckm);
+return(cookie);
 }
 
 
