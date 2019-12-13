@@ -1,12 +1,12 @@
 var username = "账号";
 var password = "密码";
-var cookie =登录();
+var cookie ="";
 签到();
       
       
       
-    
-      
+//需要验证码了 还是ck吧 
+/*      
 //登录       
 function 登录(){
 var username = "lu66666";
@@ -31,7 +31,7 @@ cookie=ck[0]+cookie;i++;
    } 
 return(cookie);
 }
-
+*/
 
 function refresh(){
     var url3 ="https://www.cunhua.pro";
